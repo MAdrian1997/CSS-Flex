@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My landing page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand">CSS<span class="sensei">Flex</span></div>
+      <ul class="topnav" id="navbar-toggle">
+        <li><a href="#" class="nav-link">Home</a></li>
+        <li><a href="#" class="nav-link">Products</a></li>
+        <li><a href="#" class="nav-link">About US</a></li>
+        <li><a href="#" class="nav-link">Contact</a></li>
+        <li class="dropdownLink">
+          <a href="javascript:void(0);" onclick="toggleDropdown()">&#9776;</a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <div class="headershot-wrapper">
+        <img class="headshoot" src="img/profile.jpg" alt="profile image" />
+        <h1>Adrian Moisii</h1>
+      </div>
+    </header>
+    <section class="services">
+      <div class="container">
+        <div class="media-object">
+          <div class="icon-left">
+            <img class="icon" src="img/graph_lines.svg" alt="graph chart" />
+          </div>
+          <div class="blurb-wrapper-right">
+            <h3 class="blurb-header">Lorem Ipsum right</h3>
+            <div class="blurb-info">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </div>
+          </div>
+        </div>
+        <div class="media-object">
+          <div class="icon-right">
+            <img class="icon" src="img/pie_chart.svg" alt="pie chart" />
+          </div>
+          <div class="blurb-wrapper-left">
+            <h3 class="blurb-header">Lorem Ipsum left</h3>
+            <div class="blurb-info">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </div>
+          </div>
+        </div>
+        <div class="media-object">
+          <div class="icon-left">
+            <img
+              class="icon"
+              src="img/assistant_icon.svg"
+              alt="assistant chart"
+            />
+          </div>
+          <div class="blurb-wrapper-right">
+            <h3 class="blurb-header">Lorem Ipsum right</h3>
+            <div class="blurb-info">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </div>
+          </div>
+        </div>
+        <div class="quote-btn-wrapper">
+          <button class="quote-btn">Get a quote</button>
+        </div>
+      </div>
+    </section>
+    <section class="portofolio">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="header">Previous Works</h1>
+        </div>
+        <div class="portofolio-wrapper">
+          <div class="portofolio-objects">
+            <div class="portofolio-box"></div>
+            <h4>Projects</h4>
+            <div class="portofolio-text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </div>
+          </div>
+          <div class="portofolio-objects">
+            <div class="portofolio-box"></div>
+            <h4>Projects</h4>
+            <div class="portofolio-text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </div>
+          </div>
+          <div class="portofolio-objects">
+            <div class="portofolio-box"></div>
+            <h4>Projects</h4>
+            <div class="portofolio-text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </div>
+          </div>
+          <div class="portofolio-objects">
+            <div class="portofolio-box"></div>
+            <h4>Projects</h4>
+            <div class="portofolio-text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </div>
+          </div>
+          <div class="portofolio-objects">
+            <div class="portofolio-box"></div>
+            <h4>Projects</h4>
+            <div class="portofolio-text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </div>
+          </div>
+          <div class="portofolio-objects">
+            <div class="portofolio-box"></div>
+            <h4>Projects</h4>
+            <div class="portofolio-text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </div>
+          </div>
+          <div class="portofolio-objects">
+            <div class="portofolio-box"></div>
+            <h4>Projects</h4>
+            <div class="portofolio-text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </div>
+          </div>
+          <div class="portofolio-objects">
+            <div class="portofolio-box"></div>
+            <h4>Projects</h4>
+            <div class="portofolio-text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-container">
+      <div class="container">
+        <div class="section-header">
+          <h1>Drop us a line</h1>
+        </div>
+        <form>
+          <label for="email">*email</label>
+          <div class="form-group">
+            <input class="form-control" type="email" id="email" />
+          </div>
+          <label for="name">*name</label>
+          <div class="form-group">
+            <input class="form-control" type="text" id="name" />
+          </div>
+          <label for="message">*message</label>
+          <div class="form-group">
+            <textarea class="form-control" id="message" rows="6"></textarea>
+          </div>
+          <div class="submit-btn-wrapper">
+            <button class="quote-btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
